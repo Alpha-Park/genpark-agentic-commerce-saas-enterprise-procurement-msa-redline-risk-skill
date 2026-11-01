@@ -1,0 +1,23 @@
+{
+  "name": "genpark-agentic-commerce-saas-enterprise-procurement-msa-redline-risk-skill",
+  "version": "1.0.0",
+  "description": "Enterprise SaaS Master Services Agreement (MSA) procurement redline risk scorer: indemnification, IP ownership, liability caps.",
+  "category": "agentic_commerce",
+  "author": "GenPark AI",
+  "website": "https://www.genpark.ai",
+  "linkedin": "https://www.linkedin.com/company/92955550",
+  "main": "skills.py",
+  "tools": [
+    {
+      "name": "score_msa_procurement_risk",
+      "description": "Enterprise SaaS Master Services Agreement (MSA) procurement redline risk scorer: indemnification, IP ownership, liability caps.",
+      "sample_input": {
+        "contract_value_annual_usd": 150000.0,
+        "liability_cap_type": "12_MONTHS_FEES",
+        "uncapped_data_breach": true,
+        "ip_assignment_clause": false,
+        "governing_law": "DELAWARE"
+      }
+    }
+  ]
+}
